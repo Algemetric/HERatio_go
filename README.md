@@ -1,6 +1,6 @@
 # HERatio and BFV Benchmark
 
-This package implements the cryptographic functions and benchmarking tests for the short-paper "HERatio: Homomorphic Encryption of Rationals using Laurent Polynomials" originaly submitted for the "3rd Annual FHE.org Conference on Fully Homomorphic Encryption".
+This package implements the cryptographic functions and benchmarking tests for the paper "HERatio: Homomorphic Encryption of Rationals using Laurent polynomials" originaly submitted for the 29th Australasian Conference on Information Security and Privacy (ACISP 2024).
 
 To run the performance benchmarks, you'll need to install Golang (i.e., Go). Both actions are covered in the next subsection.
 
@@ -11,7 +11,7 @@ To install the latest version of Go refer to the [Golang Download Page](https://
 Clone the Github repository into a folder:
 
 ```bash
-git clone git@github.com:Algemetric/HERatio.git
+git clone git@github.com:Algemetric/HERatio_go.git
 ```
 
 > [!TIP]
@@ -20,7 +20,7 @@ git clone git@github.com:Algemetric/HERatio.git
 After installing Go and cloning the github project, move inside the benchmark folder by executing:
 
 ```bash
-cd ./Implementation/Golang/benchmark
+cd ./HERatio_go/benchmark
 ```
 
 Now, execute the set of benchmark functions by issuing:
